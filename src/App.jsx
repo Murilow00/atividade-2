@@ -21,10 +21,10 @@ export default function App() {
       <BotaoUniversal textoBotao="Login" />
       <BotaoUniversal textoBotao="Recuperar Senha" />
 
-      <CrachaVisitante nome="Murilo" acesso="Administrador" />
+      <CrachaVisitante nome="Murilo" acesso="Resenhador Maximo" />
 
       <AvisoSistema mensagem="Sistema em manutenção" corAlerta="purple" />
-      <AvisoSistema mensagem="Erro crítico!" corAlerta="red" />
+      <AvisoSistema mensagem="Erro fatal!" corAlerta="red" />
 
       <ContadorLikes />
 
